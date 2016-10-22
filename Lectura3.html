@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es" class"no-js">
+    <!-- comentario  -->
+    <head>
+ 		<meta charset="UTF-8">
+        <meta content="mauricio perdomo" name="author"/>
+        <meta content="Pagina de curso de Documentación y Técnicas de Prueba de Software" name="description" />
+        <meta content="EDUCACION, UNAD, INGENIERIA, SISTEMAS, DISENO, OVA, CURSO, WEB" name="keywords" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <title>Documentación y Técnicas de Prueba de Software</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style2.css">
+     </head>
+    <body>	
+        <Div id="contenidos">
+            <header>
+                <div id="apDiv1"><img src="img/banner.jpg" width="1000" height="168">
+                  <div id="apDiv24">OVA Curso Documentación y Técnicas de Prueba de Software</div>
+              </div>
+            </header>
+        	<p>&nbsp;</p>
+   			<p>&nbsp;</p>
+            <p>&nbsp;</p>
+    		<nav>
+              <ul class="menu">
+                <li><a href="index.html" class="menu">Inicio</a></li>
+                <li><a href="lecturas.html" class="menu">Lecturas</a>
+                <ul>
+                    <li><a href="Lectura1.html" class="menu">LECTURA 1 DOCUMENTACIÓN Y DESARROLLO DE SOFTWARE</a></li>
+                    <li><a href="Lectura2.html" class="menu">LECTURA 2 LAS PRUEBAS EN EL DESARROLLO DE SOFTWARE</a></li>
+                    <li><a href="Lectura3.html" class="menu">LECTURA 3 TIPOS DE PRUEBAS</a></li>
+                </ul>
+                </li>
+                <li><a href="multimedia.html" class="menu">Multimedia</a></li>
+                <li><a href="actividades.html" class="menu">Actividades</a>
+                <ul>
+                    <li><a href="act1.html" class="menu">Sub Menu 1</a></li>
+                    <li><a href="act2.html" class="menu">Sub Menu 2</a></li>
+                    <li><a href="act2.html" class="menu">Sub Menu 3</a></li>
+                </ul>
+                </li>
+                <li><a href="autores.html" class="menu">Autores</a></li>
+                <div id="apDiv19">
+                <center>
+                 <div id="cuentavisitas"></div>
+						<script>yu=function(id){return document.getElementById(id);}
+							if(localStorage){
+							if(localStorage['visitas']==undefined){
+							localStorage['visitas']=0;
+							}var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+							var num=localStorage['visitas'];
+							var mensaje=num + " visitas";
+							 yu('cuentavisitas').innerHTML=mensaje;}
+                        </script>
+                </center></div>
+                <div id="apDiv4"><a id="l1" target="_blank" rel="nofollow" href="https://www.facebook.com/Universidad-Nacional-Abierta-y-a-Distancia-UNAD-285790428108305/"><img title="Facebook"border="0" src="img/facebook_aqu_32.png" alt="Facebook" /></a><a href="https://www.youtube.com/user/universidadunad" target="_blank"><img src="img/youtube.png" alt="YouTube" title="Twitter" border="0" /></a><span class="nsb_container"><a href="https://twitter.com/UniversidadUNAD" target="_blank"><img src=			 "img/twitter_aqu_32.png" class="menu" title="Twitter" border="0" /></a></span></div> 
+              </ul>
+                 <div id="apDiv3">    
+               	   <form method="get" action="http://www.google.es/search">
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="hidden" name="oe" value="UTF-8" />
+                    <input type="text" id="s" name="q" value="" size="12" />
+                    <font size=-1>
+                    <input type="submit"  id="x" name="btnG" value="Buscar" />
+                    <input type="hidden" name="domains" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" />
+                    <br />
+                    <input type="radio" name="sitesearch" value="" />
+                    <font color="white"> Internet</font>
+                    <input type="radio" name="sitesearch" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" checked="checked" />
+                    <font color="white"> ECBTI </font>
+                   </form>
+                </div>
+             </nav>
+            <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
+    <section>
+    <h2>LECTURA 3</h2>
+    <h2>TIPOS DE PRUEBAS</h2>
+    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
+                <article>
+                    <p>
+                      Pruebas Unitarias o de Componente: este tipo de pruebas son ejecutadas normalmente por el equipo de desarrollo, básicamente consisten en la ejecución de actividades que le permitan verificar al desarrollador que los componentes unitarios están codificados bajo condiciones de robustez, esto es,  soportando el ingreso de datos erróneos o inesperados y demostrando así la capacidad de tratar  errores de manera controlada. Adicionalmente,  Las pruebas sobre  componentes unitarios,  suelen denominarse pruebas de módulos o  pruebas de clases,  siendo la convención definida por el lenguaje de programación la que influye en el término a utilizar.  Por último, es importante que toda la funcionalidad de cada componente unitario  sea cubierta,  por al menos,  dos casos de prueba, los cuales deben centrarse en probar al menos una funcionalidad positiva y una negativa.<br>
+
+                      Pruebas de Integración: este tipo de pruebas son ejecutas por el equipo de desarrollo y consisten en la comprobación de que elementos del software que interactúan entre sí, funcionan de manera correcta.<br>
+
+                      Pruebas de Sistema: este tipo de pruebas deben ser ejecutadas idealmente por un equipo de pruebas ajeno al equipo de desarrollo, una buena práctica en este punto corresponde a la tercerización de esta responsabilidad. La obligación de este equipo, consiste en  la ejecución de actividades de prueba en donde se debe verificar que la funcionalidad total de un sistema fue implementada de acuerdo a los documentos de especificación definidos en el proyecto. Los casos de prueba a diseñar en este nivel de pruebas,  deben cubrir los aspectos funcionales y no funcionales del sistema. Para el diseño de los casos de prueba en este nivel, el equipo debe utilizar como bases de prueba entregables tales como: requerimientos iniciales, casos de uso, historias de usuario, diseños, manuales técnicos y de usuario final, etc. Por último, es importante que los tipos de pruebas ejecutados en este nivel se desplieguen en un ambiente de pruebas / ambiente de pre-producción cuya infraestructura y arquitectura sea  similar al ambiente de producción, evitando en todos los casos  utilizar el ambiente real del cliente, debido principalmente,  a que  pueda ocasionar fallos en los servidores, lo que ocasionaría indisponibilidad en otros servicios alojados en este ambiente.<br>
+
+                      Pruebas de Aceptación: Independientemente de que se haya tercerizado el proceso de pruebas y así la firma responsable de estas actividades haya emitido un certificado de calidad sobre el sistema objeto de prueba, es indispensable,  que el cliente designe a personal que haga parte de los procesos de negocio para la ejecución de pruebas de aceptación, es incluso recomendable, que los usuarios finales que participen en este proceso, sean independientes al personal que apoyó el proceso de desarrollo. Cuando las pruebas de aceptación son ejecutadas en instalaciones o ambientes proporcionados por la firma desarrolladora se les denominan pruebas Alpha, cuando son ejecutadas desde la infraestructura del cliente se les denomina pruebas Beta. En los casos en que las pruebas de aceptación del producto se hayan ejecutado en el ambiente del proveedor, el aplicativo no podrá salir a producción, sin que se hayan ejecutados las respectivas pruebas Beta en el ambiente del cliente, de lo anterior es importante  concluir, que las pruebas Alpha son opcionales, pero las pruebas Beta son obligatorias.<br>
+
+                      Un proceso de pruebas formal, está compuesto, cuando menos por las siguientes 5 típicas etapas:<br>
+                      Planeación de pruebas.<br>
+                      Diseño de pruebas.<br>
+                      Implementación de pruebas.<br>
+                      Evaluación de criterios de salida.<br>
+                      Cierre del proceso.<br>
+                      Planeación de Pruebas.<br>
+
+                      Es la etapa en donde se ejecutan las primeras actividades correspondientes al proceso de pruebas y  tiene como resultado un entregable denominado plan de pruebas el cual debe estar conformado en cuando menos por aspectos tales como:<br>
+
+                      Alcance de la prueba: determina que funcionalidades del producto y/o software serán probadas durante el transcurso de la prueba. Este listado de funcionalidades a probar  se extrae con base a un análisis de riesgos realizado de manera previa, que tienen en cuenta variables tales como el impacto que podría ocasionar la falla de una funcionalidad y la probabilidad de falla de una funcionalidad.  Producto de este análisis,  se cuenta con información adicional que permite determinar además del alcance detallado del proceso de pruebas, la prioridad con la que las funcionalidades deben probarse y  la profundidad de las pruebas.<br>
+
+                      Tipos de Prueba: en este punto se debe determinar qué tipos de pruebas requeriría el producto. No todos los productos de software requieren la aplicación de todos los tipos de pruebas que existen, por esta razón, es estrictamente necesario que el líder de pruebas se plantee preguntas que le permitan determinar qué tipos de prueba son aplicables al proyecto en evaluación. Los posibles tipos de prueba a aplicar son: pruebas de stress, pruebas de rendimiento, pruebas de carga, pruebas funcionales, pruebas de usabilidad, pruebas de regresión, entre otros.<br>
+
+                      Estrategia de Pruebas: teniendo en cuenta que no es viable probar con base a todas las posibles combinaciones de datos, es necesario determinar a través de un análisis de riesgos sobre que funcionalidades debemos centrar nuestra atención. Adicionalmente, una buena estrategia de pruebas debe indicar los niveles de pruebas (ciclos) que aplicaremos y la intensidad o profundidad a aplicar para cada nivel de pruebas definido.  En este punto también es importante definir los criterios de entrada y salida para cada ciclo de pruebas a ejecutar.<br>
+
+                       Criterios de Salida: entre las partes involucradas en el proceso, se define de manera formal, bajo qué condiciones se puede considerar  que una actividad de pruebas fue finalizada.  Los criterios de salida se deben definir para cada nivel de pruebas  a ejecutar.  Algunos ejemplos de criterios de salida que pueden ser utilizados son: porcentaje de funcionalidades de alto riesgo probadas con éxito, número defectos críticos y/o mayores  aceptados, etc.<br>
+
+                      Otros aspectos: tal y como se realiza en cualquier plan de proyecto, se debe incluir una estimación de tiempos, los roles y/o recursos que harán parte del proceso, la preparación del entorno de pruebas, cronograma base, etc.<br>
+
+                      Diseño de Pruebas: una vez elaborado y aprobado el plan de pruebas,  el equipo de trabajo debe iniciar el análisis de toda la documentación existente con respecto al sistema, con el objeto de iniciar el diseño de los casos de prueba. Los entregables claves para  iniciar  este diseño pueden ser: casos de uso, historias de usuario, arquitectura del sistema, diseños, manuales de usuario (si existen), manuales técnicos (si existen).   El diseño de los  casos, debe considerar  la elaboración de casos  positivos y negativos. Los casos de prueba negativos permiten validar cómo se comporta el sistema ante situaciones atípicas y permite verificar la robustez del sistema, atributo que constituye unos de los requerimientos no funcionales indispensable para  cualquier software.  Por último, es necesario definir cuáles son  los datos de prueba necesarios  para la ejecución de los casos de prueba diseñados.<br>
+
+                      Implementación y Ejecución de Pruebas: la ejecución de pruebas debe iniciar con la creación de los datos de prueba necesarios para ejecutar los casos de prueba diseñados. La ejecución de estos casos, puede realizarse de manera manual o automatizada;  en cualquiera de los casos,  cuando se detecte un fallo en el sistema,  este debe ser documentado y registrado en una herramienta que permita   gestionar los defectos (Bug Tracker).  Una vez el defecto ha sido corregido por la firma desarrolladora en su respectivo proceso de depuración, es necesario realizar un re-test que permita confirmar que el defecto fue solucionado de manera exitosa. Por último, es indispensable ejecutar un ciclo de regresión que nos permita garantizar, que los defectos corregidos en el proceso de depuración de la firma, no hayan desencadenado otros tipos de defectos en el sistema.<br>
+
+                      Evaluación de Criterios de Salida: los criterios de salida son necesarios para determinar si es posible dar por finalizado un ciclo de pruebas. Para esto, es conveniente definir una serie de métricas que permitirán al finalizar un proceso de pruebas, comparar los resultados obtenidos contra las métricas definidas, sí los resultados obtenidos no superan la métricas definidas, no es posible continuar con el siguiente ciclo de pruebas.<br>
+
+                      Existen varios tipos de criterios de salida dentro de los cuales se pueden mencionar: cubrimiento de funcionalidades en general, cubrimiento de funcionalidades críticas para el sistema,  Número de defectos críticos y mayores detectados, etc.  También es importante aclarar que el proceso de pruebas puede ser suspendido y/o paralizado, debido entre otros, a aspectos relacionados con el presupuesto y la calidad mínima del sistema requerida para el inicio formal de pruebas.<br>
+
+                      Cierre del proceso: durante este periodo de cierre el cual históricamente se ha comprobado que se le destina muy poco tiempo en la planeación, se deben  cerrar las incidencias reportadas,  se debe verificar si los entregables planeados han sido entregados y aprobados, se deben finalizar y aprobar los documentos de soporte de prueba, analizar las lecciones aprendidas para aplicar en futuros proyectos, etc.<br>
+                     </p>
+      			</article>
+    </section>
+    <aside> 
+                <div id="apDiv5">
+                <div id="apDiv11">Nuestra UNAD</div>
+                </div>
+                <div id="apDiv6"><span style="text-align: justify;">
+                <iframe src='js/slider.html' width='260' height='180' frameborder='0'></iframe>    
+                </span>
+      			</div>
+              	<div id="apDiv7">
+                <div id="apDiv12">Ubicación Sede Nacional</div>
+      			</div>
+      			<div id="apDiv8"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.191419159031!2d-74.0975768!3d4.5854329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1c38a35fe03bf87!2sUNAD+UNIVERSIDAD+NACIONAL+ABIERTA+Sede+Jos%C3%A9+Celestino+Mutis!5e0!3m2!1ses!2sco!4v1475599261440" width="260" height="180" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+              <div id="apDiv15"></div>
+              <div id="apDiv16">Nuestra ECBTI</div>
+      <div id="apDiv18"><iframe width="260" height="180" src="https://www.youtube.com/embed/Z-rfSPH3ZQA" frameborder="0" allowfullscreen></iframe></div>
+    	</aside>
+		<Footer>
+          <div id="apDiv25">Para uso de la Universidad Nacional Abierta y a Distancia UNAD</div>
+          <div id="apDiv26">Elaborado por: Luis Fernando Jaramillo Hernández, estudiante del programa Ing. de Sistemas </div>
+		  <div id="apDiv13"><img src="img/logoUNADgrisInferior.png" width="225" height="41"></div>
+		  <div id="apDiv27">CEAD Dosquebradas - 2016</div>
+    	</Footer>
+   </body>
+    <script src="js/modernizr.js"></script>   
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>   
+</html>
